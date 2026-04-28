@@ -1,0 +1,53 @@
+body{
+background:#1f2545;
+font-family:Arial;
+}
+
+.dashboard{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+padding:40px;
+}
+
+.card{
+background:#2d3561;
+border-radius:10px;
+padding:20px;
+height:520px;
+color:white;
+}
+
+.circle{
+width:220px;
+height:220px;
+border-radius:50%;
+margin:auto;
+
+background:
+conic-gradient(
+#49c3f1 0% 31%,
+#19b6b7 31% 70%,
+#ff4b6a 70% 91%,
+#f8b64c 91% 100%
+);
+
+position:relative;
+}
+
+.circle::after{
+content:'JUNE 2013';
+position:absolute;
+width:130px;
+height:130px;
+background:#2d3561;
+border-radius:50%;
+top:45px;
+left:45px;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+font-size:22px;
+text-align:center;
+}

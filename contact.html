@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartLMS Dashboard</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <div class="logo">
+          <i class="fa-solid fa-graduation-cap"></i> SmartLMS
+        </div>
+        <ul class="menu">
+          <li class="active"><i class="fa-solid fa-house"></i>Dashboard</li>
+          <li><i class="fa-solid fa-book-open"></i>Courses</li>
+          <li><i class="fa-solid fa-user-graduate"></i>Students</li>
+          <li><i class="fa-solid fa-chalkboard-user"></i>Teachers</li>
+          <li><i class="fa-solid fa-file-lines"></i>Assignments</li>
+          <li><i class="fa-solid fa-circle-question"></i>Quizzes</li>
+          <li><i class="fa-regular fa-envelope"></i>Messages</li>
+          <li><i class="fa-solid fa-chart-column"></i>Reports</li>
+          <li><i class="fa-solid fa-gear"></i>Settings</li>
+        </ul>
+        <div class="promo">
+          <div class="gift">🎁</div>
+          <h3>Upgrade to Pro</h3>
+          <p style="color: #6b7280; margin-top: 8px">
+            Unlock more features and enhance your experience.
+          </p>
+          <button>Upgrade Now</button>
+        </div>
+      </aside>
+      <main class="main">
+        <div class="topbar">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i
+            ><input placeholder="Search anything..." />
+          </div>
+          <div class="top-right">
+            <i class="fa-regular fa-bell"></i
+            ><i class="fa-regular fa-envelope"></i>
+            <div class="avatar">
+              <img src="https://i.pravatar.cc/100?img=12" />
+              <div>
+                <strong>Chandu Kumar</strong>
+                <div style="font-size: 13px; color: #6b7280">Admin</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="content">
+          <div class="hero">
+            <div>
+              <h1>Welcome back, Chandu 👋</h1>
+              <p>Here's what's happening with your LMS today.</p>
+            </div>
+            <div class="date">
+              <i class="fa-regular fa-calendar"></i> 17 May 2025
+            </div>
+          </div>
+          <div class="stats">
+            <div class="card">
+              <div class="stat">
+                <div class="iconbox purple">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+                <div>
+                  <h3>Total Courses</h3>
+                  <div class="num">24</div>
+                  <div class="gain">+4 this month</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="stat">
+                <div class="iconbox green">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div>
+                  <h3>Total Students</h3>
+                  <div class="num">320</div>
+                  <div class="gain">+25 this month</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="stat">
+                <div class="iconbox orange">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div>
+                  <h3>Total Teachers</h3>
+                  <div class="num">18</div>
+                  <div class="gain">+2 this month</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="stat">
+                <div class="iconbox blue">
+                  <i class="fa-solid fa-chart-simple"></i>
+                </div>
+                <div>
+                  <h3>Total Enrollments</h3>
+                  <div class="num">620</div>
+                  <div class="gain">+60 this month</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mid">
+            <div class="panel">
+              <div class="panel-head">
+                <h2>Enrollments Overview</h2>
+                <div class="select">This Year</div>
+              </div>
+              <div class="chart">
+                <svg viewBox="0 0 700 320" preserveAspectRatio="none">
+                  <polyline
+                    fill="rgba(109,93,252,.08)"
+                    stroke="none"
+                    points="40,260 160,210 280,170 400,110 520,85 650,35 650,320 40,320"
+                  />
+                  <polyline
+                    fill="none"
+                    stroke="#6d5dfc"
+                    stroke-width="4"
+                    points="40,260 160,210 280,170 400,110 520,85 650,35"
+                  />
+                  <circle cx="40" cy="260" r="6" fill="#6d5dfc" />
+                  <circle cx="160" cy="210" r="6" fill="#6d5dfc" />
+                  <circle cx="280" cy="170" r="6" fill="#6d5dfc" />
+                  <circle cx="400" cy="110" r="6" fill="#6d5dfc" />
+                  <circle cx="520" cy="85" r="6" fill="#6d5dfc" />
+                  <circle cx="650" cy="35" r="6" fill="#6d5dfc" />
+                </svg>
+              </div>
+            </div>
+            <div class="panel activity">
+              <div class="panel-head"><h2>Recent Activities</h2></div>
+              <div class="item">
+                <div class="left">
+                  <div class="smallicon green">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div>New course “Web Development” added</div>
+                </div>
+                <div class="time">2 hours ago</div>
+              </div>
+              <div class="item">
+                <div class="left">
+                  <div class="smallicon purple">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div>Student Rohit enrolled in Python Basics</div>
+                </div>
+                <div class="time">5 hours ago</div>
+              </div>
+              <div class="item">
+                <div class="left">
+                  <div class="smallicon orange">
+                    <i class="fa-solid fa-file"></i>
+                  </div>
+                  <div>New assignment “HTML Project” added</div>
+                </div>
+                <div class="time">1 day ago</div>
+              </div>
+              <div class="item">
+                <div class="left">
+                  <div class="smallicon blue">
+                    <i class="fa-solid fa-clipboard"></i>
+                  </div>
+                  <div>Quiz “CSS Basics Quiz” added</div>
+                </div>
+                <div class="time">2 days ago</div>
+              </div>
+              <div class="item" style="border-bottom: none">
+                <div class="left">
+                  <div
+                    class="smallicon"
+                    style="background: #ffe4ef; color: #ec4899"
+                  >
+                    <i class="fa-solid fa-folder"></i>
+                  </div>
+                  <div>Teacher uploaded new resources</div>
+                </div>
+                <div class="time">2 days ago</div>
+              </div>
+            </div>
+          </div>
+          <h2 class="courses-title">Top Courses</h2>
+          <div class="courses">
+            <div class="course">
+              <div class="thumb t1"><i class="fa-solid fa-code"></i></div>
+              <h3>Web Development</h3>
+              <div class="meta"><span>120 Students</span><span>75%</span></div>
+              <div class="bar"><div class="fill f1"></div></div>
+            </div>
+            <div class="course">
+              <div class="thumb t2">🐍</div>
+              <h3>Python Basics</h3>
+              <div class="meta"><span>95 Students</span><span>60%</span></div>
+              <div class="bar"><div class="fill f2"></div></div>
+            </div>
+            <div class="course">
+              <div class="thumb t3"><i class="fa-brands fa-css3-alt"></i></div>
+              <h3>CSS Mastery</h3>
+              <div class="meta"><span>80 Students</span><span>50%</span></div>
+              <div class="bar"><div class="fill f3"></div></div>
+            </div>
+            <div class="course">
+              <div class="thumb t4">
+                <strong style="color: #111827">JS</strong>
+              </div>
+              <h3>JavaScript Basics</h3>
+              <div class="meta"><span>60 Students</span><span>40%</span></div>
+              <div class="bar"><div class="fill f4"></div></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
