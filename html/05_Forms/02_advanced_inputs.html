@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Form Inputs</title>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <form action="#">
+        <p>Choose your favorite web language:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="js" name="fav_language" value="JavaScript">
+        <label for="js">JavaScript</label><br><br>
+        
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday" name="bday"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
