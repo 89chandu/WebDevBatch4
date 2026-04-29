@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: row; /* Default */
+            flex-wrap: wrap; /* Wrap to next line if no space */
+            gap: 10px;
+            background-color: #eee;
+            padding: 10px;
+            width: 300px; /* Constrain width to force wrap */
+        }
+        .flex-item {
+            background-color: #ec4899;
+            color: white;
+            width: 130px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Flex Wrap</h2>
+    <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+</body>
+</html>

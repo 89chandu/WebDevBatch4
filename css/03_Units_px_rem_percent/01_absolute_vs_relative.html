@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html { font-size: 16px; } /* Default base size */
+        
+        .px-text { font-size: 24px; } /* Absolute */
+        .rem-text { font-size: 2rem; } /* Relative to root HTML element (2 * 16px = 32px) */
+        
+        .parent { font-size: 20px; }
+        .em-text { font-size: 2em; } /* Relative to parent element (2 * 20px = 40px) */
+    </style>
+</head>
+<body>
+    <h2>CSS Units: px, em, rem</h2>
+    <p class="px-text">This text is 24px.</p>
+    <p class="rem-text">This text is 2rem (32px).</p>
+    <div class="parent">
+        Parent div (20px font-size).
+        <p class="em-text">This text is 2em (40px based on parent).</p>
+    </div>
+</body>
+</html>

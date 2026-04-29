@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr; /* 3 columns with different fractions */
+            gap: 15px;
+            background-color: #333;
+            padding: 15px;
+        }
+        .grid-item {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Grid Basics</h2>
+    <div class="grid-container">
+        <div class="grid-item">Column 1 (1fr)</div>
+        <div class="grid-item">Column 2 (2fr)</div>
+        <div class="grid-item">Column 3 (1fr)</div>
+        <div class="grid-item">Item 4</div>
+        <div class="grid-item">Item 5</div>
+        <div class="grid-item">Item 6</div>
+    </div>
+</body>
+</html>

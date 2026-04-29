@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: 'Arial', sans-serif; background: #f4f7f6; display: flex; justify-content: center; padding: 50px; margin: 0; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; max-width: 900px; width: 100%; }
+        .card { background: white; border-radius: 10px; padding: 30px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        .card.popular { border: 2px solid #3b82f6; transform: scale(1.05); }
+        .card.popular:hover { transform: scale(1.05) translateY(-10px); }
+        .title { font-size: 20px; color: #555; text-transform: uppercase; letter-spacing: 1px; }
+        .price { font-size: 40px; font-weight: bold; color: #111; margin: 20px 0; }
+        .price span { font-size: 16px; color: #888; }
+        ul { list-style: none; padding: 0; margin-bottom: 30px; }
+        ul li { padding: 10px 0; border-bottom: 1px solid #eee; color: #666; }
+        .btn { display: inline-block; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; }
+        .btn-outline { color: #3b82f6; border: 2px solid #3b82f6; }
+        .btn-solid { background: #3b82f6; color: white; }
+    </style>
+</head>
+<body>
+    <div class="pricing-grid">
+        <div class="card">
+            <div class="title">Basic</div>
+            <div class="price">$19<span>/mo</span></div>
+            <ul>
+                <li>1 User</li>
+                <li>10GB Storage</li>
+                <li>Basic Support</li>
+            </ul>
+            <a href="#" class="btn btn-outline">Choose Plan</a>
+        </div>
+        <div class="card popular">
+            <div class="title">Pro</div>
+            <div class="price">$49<span>/mo</span></div>
+            <ul>
+                <li>5 Users</li>
+                <li>50GB Storage</li>
+                <li>Priority Support</li>
+            </ul>
+            <a href="#" class="btn btn-solid">Choose Plan</a>
+        </div>
+        <div class="card">
+            <div class="title">Enterprise</div>
+            <div class="price">$99<span>/mo</span></div>
+            <ul>
+                <li>Unlimited Users</li>
+                <li>1TB Storage</li>
+                <li>24/7 Support</li>
+            </ul>
+            <a href="#" class="btn btn-outline">Choose Plan</a>
+        </div>
+    </div>
+</body>
+</html>

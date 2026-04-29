@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #e2e8f0; font-family: sans-serif; margin: 0; }
+        .card { background: white; width: 300px; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); text-align: center; }
+        .card-header { height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .profile-img { width: 100px; height: 100px; border-radius: 50%; border: 4px solid white; margin-top: -50px; background: #fff; }
+        .card-body { padding: 20px; }
+        .name { margin: 10px 0 5px; font-size: 22px; color: #333; }
+        .job { color: #777; font-size: 14px; margin-bottom: 20px; }
+        .btn { background: #667eea; color: white; border: none; padding: 10px 20px; border-radius: 25px; cursor: pointer; transition: 0.3s; }
+        .btn:hover { background: #764ba2; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header"></div>
+        <img src="https://via.placeholder.com/100" alt="Profile" class="profile-img">
+        <div class="card-body">
+            <h2 class="name">John Doe</h2>
+            <p class="job">Frontend Developer</p>
+            <button class="btn">Follow</button>
+        </div>
+    </div>
+</body>
+</html>
