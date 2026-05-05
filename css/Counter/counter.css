@@ -1,0 +1,22 @@
+.list {
+
+    counter-reset: mycounter;
+}
+
+.list li {
+    counter-increment: mycounter;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.list li::before {
+    content: counter(mycounter) ". ";
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    background: blue;
+    padding: 5px 10px;
+   margin-right: 10px;
+   
+    
+}
