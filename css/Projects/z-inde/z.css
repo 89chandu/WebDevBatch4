@@ -1,0 +1,19 @@
+.box {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.red {
+    background: red;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+
+.blue {
+    background: blue;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}

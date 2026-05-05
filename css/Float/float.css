@@ -1,0 +1,17 @@
+
+
+
+
+.card2 {
+
+    width: 350px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.card2 p {
+    width: 120px;
+    float: right;
+}

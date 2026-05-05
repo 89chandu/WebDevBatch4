@@ -1,0 +1,45 @@
+/* .box {
+    width: 150px;
+    height: 100px;
+    background: rgb(32, 123, 220);
+    color: aliceblue;
+    position: static;
+    top: 50px;
+
+    /* top left right bottom work */
+
+/* } */
+
+/* .box {
+    width: 150px;
+    height: 100px;
+    background: rgb(32, 123, 220);
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+
+} */
+
+.chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background: green;
+    color: white;
+}
+
+/* top */
+/* left */
+/* right */
+/* bottom */
+
+
+
+.title {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 15px;
+}
