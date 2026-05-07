@@ -1,0 +1,35 @@
+button{
+    background: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 5px 10px rgb(167, 166, 166);
+}
+
+button:hover {
+    background: blue;
+}
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+button:active {
+    transform: translateY(20px);
+}
+/* 
+li:first-child{
+    color: red;
+  
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(3) {
+    color: rgb(114, 206, 10);
+} */
+

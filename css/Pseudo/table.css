@@ -1,0 +1,14 @@
+table {
+    width: 400px;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(3n-1) {
+    background: rgb(233, 209, 255);
+}
