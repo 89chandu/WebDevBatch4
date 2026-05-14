@@ -1,0 +1,25 @@
+.box {
+    background: rgb(141, 141, 202);
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px black;
+    
+    
+
+}
+
+
+.box:hover {
+    background: red;
+    ;
+}
+img{
+    width: 100%;
+}
+p{
+    padding: 10px;
+}
+h1{
+    padding: 10px;
+}
+

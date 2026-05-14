@@ -1,0 +1,45 @@
+.box {
+    width: 300px;
+    padding: 30px;
+    border: 5px solid;
+    /* border-image: linear-gradient(red,blue) ; */
+    border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3i5fqET1RhvhDBMFDp4ER24FxwzK-53fzPw&s");
+    border-image-slice:10;
+    border-image-width: 5px;
+    border-image-repeat: repeat;
+
+}
+
+.card {
+    width: 300px;
+    padding: 40px;
+    background: white;
+    border: 5px solid;
+
+    border-image: linear-gradient(95deg,red,orange,blue,purple)1;
+    font-size: 25px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    /* clip-path: circle(50%); */
+    /* clip-path: ellipse(40% 50%); */
+    /* clip-path: polygon(50% 0%,
+    0% 100%,
+    100% 100%); */
+    clip-path: polygon(50% 0%,
+    
+    100% 50%,
+    50% 100%,
+    0% 50%); 
+}
+
+/* polygon(x y) */
+
+/* 0% 0% - top -left */
+/* 100% 0% - top -right */
+/* 0% 100% - bottom -left */
+/* 100% 100% - bottom -right  */
+
+/* 50 % 0 % -  */
