@@ -1,0 +1,18 @@
+
+
+
+
+p {
+    color: aqua !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: brown !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace !important;
+}

@@ -1,0 +1,27 @@
+.card {
+
+    width: 300px;
+    height: 200px;
+
+    border: 5px solid blue;
+
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    /* object-fit: fill; */
+    /* object-fit: contain; */
+    /* object-fit: none; */
+    /* object-fit: scale-down; */
+
+    /* object-position: top; */
+    /* object-position: bottom; */
+    object-position: left;/
+    /* object-position: right; */
+
+    /* object-position: center; */
+}

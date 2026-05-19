@@ -1,0 +1,29 @@
+img {
+    width: 400px;
+
+    opacity: 0.2;
+
+    transition: 0.9s;
+
+    /* mask-image: linear-gradient(
+        /* gray, */
+        /* transparent,
+        black,
+        transparent
+    ); */ 
+
+ 
+    /* mask-size: cover;
+    mask-repeat: no-repeat;
+    mask-position: center; */
+
+
+    /* mask-image: radial-gradient(circle,black 50% ,transparent 70%); */
+}
+
+img:hover{
+    opacity: 1;
+}
+
+
+
