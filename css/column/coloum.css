@@ -1,0 +1,26 @@
+.content {
+
+    column-count: 3;
+    font-size: 20px;
+
+    column-gap: 30px;
+
+    column-width: 20px;
+
+    /* column-rule-style: solid;
+
+    column-rule-width: 5px;
+
+    column-rule-color: blue; */
+
+    column-rule: 4px solid red ;
+}
+
+.contents {
+    column-count: 3;
+    column-width: 200px;
+}
+
+h1 {
+    column-span: all;
+}

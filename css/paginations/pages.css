@@ -1,0 +1,69 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 12px 18px;
+    background: #eee;
+    color: black;
+    border-radius: 8px;
+    transition: 0,3s;
+}
+
+.pagination .active {
+    background: #4f4;
+    color: white;
+}
+
+@media(max-width:500px) {
+    .pagination {
+        flex-wrap: wrap;
+    }
+}
+
+body:hover {
+    background: #111827;
+}
+.pagination a {
+    background: #1f2937;
+    color: white;
+}
+a {
+
+}
+
+#st {
+
+}
+
+* {
+
+}
+
+
+/*  M E R N */
+
+
+
+
+/* Mongo Db */
+
+/* Express js */
+
+/* React js */
+
+/* Node js  */
+
+
+
+
+
+/* element selector */
+/* class selector */
+/* id selector */
+/* universal selector */
+/* group selector */

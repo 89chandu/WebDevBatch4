@@ -1,0 +1,51 @@
+.typing {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+    border-right: 3px solid black;
+    font-size: 30px;
+
+    color: blue;
+
+    animation: typing 5s steps(20) forwards,
+    colorChange 3s infinite,
+    blink 0.5s infinite;
+    /* colorChange 3s initial; */
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 350px;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: green;
+    }
+
+    50% {
+        color: orange;
+    }
+
+    100% {
+        color: red;
+    }
+}
+

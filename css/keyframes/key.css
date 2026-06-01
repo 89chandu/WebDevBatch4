@@ -1,0 +1,49 @@
+body {
+    padding: 50px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+
+    background: red;
+    border-radius: 50%;
+    animation: Stable 1s  ,
+    colorChange 3s ;
+    
+   
+}
+
+@keyframes Stable {
+    0% {
+        transform: translateX(350);
+    }
+
+    25% {
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateX(300px);
+    }
+}
+
+
+@keyframes colorChange {
+    0% {
+        background: red;
+    }
+    50% {
+        background: blue;
+    }
+
+    100% {
+        background: green;
+    }
+
+}
+

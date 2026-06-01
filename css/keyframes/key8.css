@@ -1,0 +1,21 @@
+.menu {
+    width: 250px;
+    height: 100vh;
+    background: black;
+    color: white;
+
+    position: absolute;
+    left: -250px;
+
+    animation: slideMenu 2s forwards infinite;
+}
+
+@keyframes slideMenu {
+    from {
+        left: -250px;
+    }
+
+    to {
+        left: 0;
+    }
+}

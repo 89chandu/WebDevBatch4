@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(244, 167, 50), rgb(132, 226, 124),red);
+    background-size: 400% 400%;
+    animation: bgAnimation 5s ease infinite;
+}
+
+
+@keyframes bgAnimation {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+     50% {
+        background-position: 100% 50%;
+    }
+
+     100% {
+        background-position: 0% 50%;
+    }
+}

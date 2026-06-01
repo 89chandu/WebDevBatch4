@@ -1,0 +1,37 @@
+.box {
+
+    width: 100px;
+    height: 100px;
+    background: red;
+
+    animation: moveBoxes 3s infinite;
+
+}
+
+@keyframes moveBox {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateY(200px);
+        background: blue;
+    }
+
+     100% {
+        transform: translateX(200px);
+        background: black;
+        color: aliceblue;
+    }
+
+}
+
+@keyframes moveBoxes {
+    0% {
+        transform: scale(2);
+    }
+
+}
+
+
