@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+
+</head>
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+        <h2 id="percent">0%</h2>
+    </div>
+
+    <div class="container">
+
+    <div class="sidebar">
+        <h2>☰Menu</h2>
+        <p>🏠 Home</p>
+        <p>☁️Forecast</p>
+        <p>⚙️Settings</p>
+
+    </div>
+
+    <div class="main">
+
+        <h1 class="typing">
+             Welcome to Weather App
+        </h1>
+
+        <div class="weather-card">
+
+            <div class="icon">☀️</div>
+            <h2>Balaghat</h2>
+
+            <h1 class="temp">
+                36°C
+            </h1>
+
+            <p>Humidity: 65%</p>
+
+            <input type="text" placeholder="Enter City">
+
+            <button>Search</button>
+
+        </div>
+       
+
+    </div>
+
+    </div>
+
+
+<script>
+
+/* 2. LOADING PERCENTAGE */
+
+let count = 0;
+
+const percent =
+
+document.getElementById("percent");
+
+const loader =
+
+document.getElementById("loader");
+
+let interval = setInterval(()=>{
+
+    count++;
+
+    percent.innerHTML =
+
+    count + "%";
+
+    if(count >= 100){
+
+        clearInterval(interval);
+
+        loader.style.display = "none";
+
+    }
+
+},10);
+
+</script>
+    
+</body>
+</html>

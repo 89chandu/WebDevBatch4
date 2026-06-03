@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Gradeint Background */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: linear-gradient(
+        45deg,
+        rgb(73, 73, 198),
+        rgb(141, 252, 141),
+        rgb(255, 234, 196)
+    );
+
+    background-size: 400%,400%;
+    animation: bgAnimation 8s ease infinite;
+}
+
+/* Loader */
+
+#loader {
+    position: fixed;
+    inset: 0;
+
+    background: white;
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#percent {
+    margin-top: 20px;
+}
+
+/* Dashboard */
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    height: 600px;
+
+    display: flex;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.2);
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* Sliding Sidebar */
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+
+    background: rgba(0,0,0,0.7);
+    color: white;
+    position: relative;
+    animation: slideMenu 1s forwards;
+   
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar p {
+    margin: 15px 0;
+}
+
+/* Main */
+
+.main {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.typing {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+    margin-bottom: 30px;
+
+    animation: typing 4s steps(25) forwards;
+}
+
+/* weather-card */
+
+.weather-card {
+    width: 320px;
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 20px;
+    background: white;
+    animation: float 3s ease-in-out infinite;
+}
+
+.icon {
+    font-size: 70px;
+    animation: bounce 1s infinite;
+}
+
+.temp {
+    margin: 15px 0;
+    animation: colorChange 3s infinite;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+button {
+
+    margin-top:15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #0072ff;
+    color: white;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+
+    border: 10px solid lightgray;
+    border-top: 10px solid blue;
+
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+}
+
+/* Animations */
+
+@keyframes bgAnimation  {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 67%;
+    }
+}
+
+@keyframes slideMenu {
+    from {
+        transform: translateX(-250px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+
+    0% ,100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: green;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
