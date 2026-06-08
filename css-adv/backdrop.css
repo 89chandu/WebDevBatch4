@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://t4.ftcdn.net/jpg/19/10/50/39/360_F_1910503962_FysPDZGZO1dBxUenpaT5i7COsaoitpUc.webp") center/cover no-repeat;
+}
+
+.glass-card {
+    width: 350px;
+    padding: 30px;
+
+    background: rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(2px);
+
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+
+    color: white;
+    text-align: center;
+}
+
+.glass-card h2 {
+    margin-top: 0;
+}
+
+button {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
