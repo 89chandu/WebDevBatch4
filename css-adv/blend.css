@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_U1MPFbBP7Cn4ez-Jv1TDtMJ6-_U1fJtfZQ&s") center/cover no-repeat;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(246, 241, 241);
+    /* color: rgb(35, 153, 22); */
+
+    mix-blend-mode: difference;
+}
+
+#

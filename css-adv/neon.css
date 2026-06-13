@@ -1,0 +1,15 @@
+body {
+    background: rgb(6, 0, 0);
+
+    display: flex;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_U1MPFbBP7Cn4ez-Jv1TDtMJ6-_U1fJtfZQ&s") center/cover no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    mix-blend-mode: screen;
+}
