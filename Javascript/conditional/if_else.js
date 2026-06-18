@@ -85,17 +85,91 @@
 // Movie Ticket Price
 
 
-const prompt = require("prompt-sync")();
-let age = Number(prompt("Enter Your age:"))
+// const prompt = require("prompt-sync")();
+// let age = Number(prompt("Enter Your age:"))
 
-if (age < 5) {
+// if (age < 5) {
 
-    console.log("Free Ticket")
+//     console.log("Free Ticket")
 
-} else if (age <= 18) {
-    console.log("Ticket Price = 100 ₹")
-} else {
-    console.log("Ticket Price = 200 ₹")
+// } else if (age <= 18) {
+//     console.log("Ticket Price = 100 ₹")
+// } else {
+//     console.log("Ticket Price = 200 ₹")
+// }
+
+
+// login system
+
+// const prompt = require("prompt-sync")();
+
+// let username =prompt("Enter Your username:")
+// let password =prompt("Enter Your password:")
+
+// // let username = "admin"
+// // let password = "1234"
+
+// if (username === "admin" && password === "1234") {
+//     console.log("Login Success")
+
+// } else {
+//     console.log("Invalid Credentials")
+// }
+
+
+// Discount Calculator
+
+// const prompt = require("prompt-sync")();
+
+// let shopping_amount =prompt("Enter Your shopping_amount:")
+// let discount = 0
+// let finalAmount
+
+// if (shopping_amount > 5000) {
+    
+//     discount  = shopping_amount * 20 / 100
+//     finalAmount = shopping_amount - discount
+// }
+// else if (shopping_amount > 2000) {
+
+//     discount  = shopping_amount * 10 / 100
+//     finalAmount = shopping_amount - discount
+
+
+// } else {
+//     finalAmount = shopping_amount
+// }
+
+// console.log("Original Amount :",shopping_amount)
+// console.log("Discount Amount :",discount)
+// console.log("Final Amount You Have To Pay:",finalAmount)
+
+
+// Eletricity Bill
+
+let units = 150
+let bill
+
+if (units <= 100) {
+    bill = units * 5
 }
+
+else if (units <= 200) {
+    bill = units * 7
+}
+
+else {
+    bill = units * 10
+}
+
+console.log("Bill Amount: ",bill)
+
+
+
+
+
+
+
+
 
 
