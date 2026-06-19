@@ -147,23 +147,44 @@
 
 // Eletricity Bill
 
-let units = 150
-let bill
+// let units = 150
+// let bill
 
-if (units <= 100) {
-    bill = units * 5
+// if (units <= 100) {
+//     bill = units * 5
+// }
+
+// else if (units <= 200) {
+//     bill = units * 7
+// }
+
+// else {
+//     bill = units * 10
+// }
+
+// console.log("Bill Amount: ",bill)
+
+// 2- digit , 3-digit , 4-digit
+
+
+const prompt = require("prompt-sync")();
+let num = prompt("Enter Your num:")
+
+// let num = -12
+
+num = Math.abs(num)
+
+if (num >= 10 && num <= 99) {
+    console.log("2 Digit Number")
 }
-
-else if (units <= 200) {
-    bill = units * 7
+else if (num >= 100 && num <= 999) {
+    console.log("3 digit Number")
 }
-
-else {
-    bill = units * 10
+else if (num >= 1000 && num <= 9999) {
+    console.log("4 Digit Number")
+} else {
+    console.log("Not a 2, 3 or 4 digit Number")
 }
-
-console.log("Bill Amount: ",bill)
-
 
 
 
