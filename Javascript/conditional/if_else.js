@@ -4,6 +4,10 @@
 // const prompt = require("prompt-sync")();
 // let age = prompt("Enter your age:")
 
+// let age = 20
+
+// console.log(age >= 18)
+
 // if (age >= 18) {
 //     console.log("You are eligible to vote")
 // } else {
@@ -14,23 +18,23 @@
 // else
 // else if
 
-// const prompt = require("prompt-sync")();
-// let marks = prompt("Enter your marks:")
+const prompt = require("prompt-sync")();
+let marks = prompt("Enter your marks:")
 
-// let marks = 48
+let marks = 48
 
-// if (marks >= 90) {
-//     console.log("Grade A")
-// }
-// else if (marks >= 70) {
-//     console.log("Grade B")
-// } 
-// else if (marks >= 50) {
-//     console.log("Grade C")
-// }
-// else {
-//     console.log("Fail")
-// }
+if (marks >= 90) {
+    console.log("Grade A")
+}
+else if (marks >= 70) {
+    console.log("Grade B")
+} 
+else if (marks >= 50) {
+    console.log("Grade C")
+}
+else {
+    console.log("Fail")
+}
 
 
 // Largest of three numbers
@@ -167,24 +171,24 @@
 // 2- digit , 3-digit , 4-digit
 
 
-const prompt = require("prompt-sync")();
-let num = prompt("Enter Your num:")
+// const prompt = require("prompt-sync")();
+// let num = prompt("Enter Your num:")
 
-// let num = -12
+// // let num = -12
 
-num = Math.abs(num)
+// num = Math.abs(num)
 
-if (num >= 10 && num <= 99) {
-    console.log("2 Digit Number")
-}
-else if (num >= 100 && num <= 999) {
-    console.log("3 digit Number")
-}
-else if (num >= 1000 && num <= 9999) {
-    console.log("4 Digit Number")
-} else {
-    console.log("Not a 2, 3 or 4 digit Number")
-}
+// if (num >= 10 && num <= 99) {
+//     console.log("2 Digit Number")
+// }
+// else if (num >= 100 && num <= 999) {
+//     console.log("3 digit Number")
+// }
+// else if (num >= 1000 && num <= 9999) {
+//     console.log("4 Digit Number")
+// } else {
+//     console.log("Not a 2, 3 or 4 digit Number")
+// }
 
 
 

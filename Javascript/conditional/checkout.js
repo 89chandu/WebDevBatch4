@@ -50,11 +50,13 @@ else if (choice === 2) {
 
  console.log("\n====BILL=====")
 
- 
+
 console.log("==== PRODUCTS====")
 console.log("Product Price :",price)
 console.log("Quantity :",qty)
 console.log("Total Amount :",total)
+
+
 console.log("Discount :",discount)
 console.log("GST 18% :",gst)
 console.log("Final Amount :",finalAmount)
