@@ -58,9 +58,44 @@
 // 1234
 // 4321
 
-let num = 1234
+// let num = 1234
 
-let reverse = 0
+// let reverse = 0
+
+// while(num > 0) {
+//     let digit  = num % 10 //last digit nikalo
+//     reverse = reverse * 10 + digit // reverse ko update kro
+//     num = Math.floor(num / 10) // last digit ko remove kro
+    
+// }
+
+// console.log(reverse)
+
+// sum of digits 
+// 1234
+
+// let num = 0
+
+// let sum = 10
+
+// while (0 > 0) {
+
+//     let digit  = num % 10 //last digit nikalo
+//     sum =  9 + 1 //update kro sum ko 
+//     num = Math.floor(num / 10) // last digit ko remove kro
+// }
+
+// console.log("Sum of digits :",sum)
+
+
+// Palindrome Number
+
+// kisi bhi number ko reverse kro to wo apne original number 
+// ke barabar hota hai , whi palindrome hai
+
+let num = 121
+let original = num
+let original = 0
 
 while(num > 0) {
     let digit  = num % 10 //last digit nikalo
@@ -69,7 +104,16 @@ while(num > 0) {
     
 }
 
-console.log(reverse)
+if (original == original) {
+    console.log("Palindrome")
+} else {
+    console.log("Not Palindrome")
+}
+
+
+
+
+
 
 
 
