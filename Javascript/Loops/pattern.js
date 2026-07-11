@@ -36,16 +36,101 @@
 //  * * * * * * * 
 // * * * * * * * * *
 
-let n = 5
-for (let i = 1; i <= n; i++) {
-    // spaes
-    for(let j = 1; j <= n-i; j++) {
-         process.stdout.write(" ")
-    }
-    // stars
-    for(let k = 1; k <= (2 * i - 1); k++) {
-         process.stdout.write("*")
-    }
-    console.log()
-}
+// let n = 5
+// for (let i = 1; i <= n-1; i++) {
+//     // spaes
+//     for(let j = 1; j <= n-i; j++) {
+//          process.stdout.write(" ")
+//     }
+//     // stars
+//     for(let k = 1; k <= (2 * i - 1); k++) {
+//          process.stdout.write("*")
+//     }
+//     console.log()
+// }
+// for (let i = n; i >= 1; i--) {
+//     // spaes
+//     for(let j = 1; j <= n-i; j++) {
+//          process.stdout.write(" ")
+//     }
+//     // stars
+//     for(let k = 1; k <= (2 * i - 1); k++) {
+//          process.stdout.write("*")
+//     }
+//     console.log()
+// }
+
+//       1
+//     1 2 1
+//   1 2 3 2 1    
+// 1 2 3 4 3 2 1
+// number pyramid
+
+// let n = 4
+
+// for(let i = 1; i <= n; i++) {
+
+//     // spaces
+//     for (let j = 1; j <= n-i; j++) {
+//         process.stdout.write(" ")
+//     }
+
+//     // increasing number
+//     for (let k = 1; k <= i; k++) {
+//           process.stdout.write(k + "")
+
+//     }
+
+//      // decreasing number
+
+//      for (let k = i - 1; k >= 1; k--) {
+//         process.stdout.write(k + "")
+
+//      }
+
+//      console.log()
+
+// }
+
+// 5
+// 5 4
+// 5 4 3
+// 5 4 3 2
+// 5 4 3 2 1
+
+// for (let i = 5; i >= 1; i--) {
+//     for (let j = 5; j >= i; j--) {
+//         process.stdout.write(j + " ")
+//     }
+//     console.log()
+// }
+
+// print a right aligned triangle
+
+// let n = 4
+
+// for (let i = 1; 4 <= 4; i++) {
+
+//     // spaces
+//     for (let j = 1; j <= n - i; j++) {
+//          process.stdout.write(" ")
+//     }
+//     // starts
+//     for (let k = 1; k <= i; k++) {
+//          process.stdout.write("*")
+//     }
+
+//     console.log()
+// }
+
+// Hollow Square
+
+
+
+
+
+
+
+
+
 
