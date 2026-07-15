@@ -76,15 +76,88 @@
 
 // indexOf()
 
-let fruits = ["Apple","Mango","Kiwi","banana","cherry","grapes","papaya"]
 
-console.log(fruits.indexOf("Kiwi"))
+// let fruits = ["Apple","Mango","Kiwi","banana","cherry","grapes","papaya"]
+
+// console.log(fruits.indexOf("grapes"))
 
 // last
 
 // let fruits = ["Apple","Mango","Kiwi","banana","cherry","grapes","papaya"]
 
 // console.log(fruits.indexOf("Kiwi"))
+
+// lastIndexOf
+
+// let fruits = ["Apple","Mango","Kiwi","banana","cherry","grapes","Apple","papaya"]
+
+// // console.log(fruits.indexOf("Mango"))
+// console.log(fruits.lastIndexOf("orange"))
+
+// at()
+
+// let numbers = [10,20,30,40,50]
+
+// console.log(numbers.at(-1))
+// console.log(numbers.at(-2))
+// console.log(numbers.at(-6))
+
+// join()
+
+// let fruits = ["Apple","Mango","Kiwi","banana","cherry","grapes","Apple","papaya"]
+
+// console.log(fruits.join(" "))
+
+// 11. reverse()
+
+
+// let numbers = [1,2,3,4,5,6]
+
+// console.log(numbers.reverse())
+
+
+// 12. sort()
+
+//  let numbers = [5,9,1,4,3]
+
+//  numbers.sort()
+
+//  console.log(numbers)
+
+// 13. slice()
+
+// let numbers = [10,20,30,40,50,60]
+
+// let result = numbers.slice(1,4)
+
+// console.log(result)
+// console.log(numbers)
+
+// 14. splice()
+
+// let numbers = [10,20,30,40,50,60]
+
+// let result = numbers.splice(1,4)
+
+// console.log(result)
+// console.log(numbers)
+
+
+// concat() method
+
+// let a = [1,2,3,4]
+// let b = [5,6]
+
+// let c = a.concat(b)
+
+// console.log(c)
+
+
+
+
+
+
+
 
 
 
