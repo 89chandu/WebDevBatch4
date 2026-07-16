@@ -152,6 +152,25 @@
 
 // console.log(c)
 
+// 16. fill()
+
+// let numbers = [true,false,true,false,true]
+
+// numbers.fill(true)
+
+// console.log(numbers)
+
+
+// fill(value,start,end)
+// note : end index include nhi hota hai
+
+let numbers = [1,2,3,4,5,6,7]
+
+numbers.fill(2,2,5)
+console.log(numbers)
+
+
+
 
 
 
