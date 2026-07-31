@@ -1,0 +1,48 @@
+1.What is javascript ?
+javascript ek programming language hai , jo website ko 
+interactive aur dynamic bnane ke liye use kee javascript.
+
+js : programming aur scripting dono language hai 
+python bhi : programming aur scripting dono language hai 
+
+programming language : apps system softeware develope
+scripting language : dusre system ko control aur automate kr skte hai
+
+
+2.why do we use javascript ?
+website ko 
+interactive aur dynamic bnane ke liye use kee javascript.
+
+
+3.Difference between JS and Java
+
+
+4.Difference between let var and const ? ....... IMP......
+
+
+var : old way to declare variable
+function scoped
+redeclare aur update dono possible hai
+
+let : modern way to declare
+Block scope
+update ho skta hai
+same scope me redeclare nhi ho skta hai
+
+const : modern way to declare
+Block scope
+update nhi ho skta hai
+redeclare nhi ho skta hai
+
+
+5. What is variable hoisting ?
+
+6. What is variable scope ? 
+
+7. Difference between Global and Local Scope?
+
+8. Can we redeclare let , var , const ?
+
+9. Can we reassign let , var , const ?
+
+10. why we should avoid var ?

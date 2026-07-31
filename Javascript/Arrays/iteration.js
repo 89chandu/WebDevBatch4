@@ -90,11 +90,11 @@
 
 // purpose : sirf pehla matching elements return krta hai 
 
-// let numbers = [10,20,10,40]
+let numbers = [19,10,21,10,50]
 
-// let result = numbers.find(num => num > 20)
+let result = numbers.find(num => num > 20)
 
-// console.log(result)
+console.log(result)
 
 // Reduce Methods 
 
@@ -118,9 +118,9 @@
 // every()
 // All elements must satisfy condition
 
-let numbers = [10,20,30]
+// let numbers = [10,20,30]
 
-console.log(numbers.every(num => num > 12))
+// console.log(numbers.every(num => num > 12))
 
 
 

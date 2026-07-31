@@ -1,0 +1,64 @@
+1. what is forEach()?
+Array ke har element par ek action perform krta hai ,
+lekin kuchh return nhi krta hai
+
+work : printing , logging , calculations
+
+2. what is map() ?
+array ke har elelment ko trasform(modify) krta hai ,
+aur ek nya array return krta hai 
+
+work : modifying data
+
+3. what is filter() ? 
+
+array se sirf wahi elements select krta hai jo condition ko satisfy 
+krte hai aur ek nya array return krta hai 
+
+let numbers = [10,15,20,25,30,35,40,45]
+
+let even = numbers.filter(num => num % 2 == 0)
+
+console.log(even)
+
+
+4. what is find() ?
+
+array me se pahla element matching element return krta hai 
+jo condition ko satisfy krta hai 
+
+
+5. what is reduce() ?
+array ke sabhi elements ko combine krke ek 
+single value ko return krta hai 
+
+Reduce ka mtlb hai bahut sari values ko
+milakr ek single value bnana
+
+
+6. what is the spread operator ?
+7. what is Rest Operator ?
+
+8. Difference between forEach() and map()?
+
+9. Difference between map() and filter()?
+
+
+10. Difference between filter() and find()?
+
+11. Difference between find() and findIndex()?
+
+12. Difference between Spread and Rest Operator?
+
+13. Difference between reduce() and forEach()?
+
+14. Difference between map() and reduce()?
+
+15. Difference between for loop and forEach()?
+
+
+16. What does forEach() return?
+17. What does map() return?
+18. What does filter() return?
+19. What does find() return?
+20. What does reduce() return?

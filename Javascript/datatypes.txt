@@ -1,0 +1,20 @@
+1. What are primitive data types ?
+2. What are non-primitive data types ?
+
+3. Difference between null and undefined?
+
+4. Difference between == and ===?
+
+5. What is typeof?
+
+6. what is NaN ?
+
+7. Is NaN == NaN true?
+
+8. Difference between Number and BigInt?
+
+9. What is Symbol ?
+
+10. Why are objects called reference types?
+
+
