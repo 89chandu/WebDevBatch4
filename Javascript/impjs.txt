@@ -39,10 +39,23 @@ redeclare nhi ho skta hai
 
 6. What is variable scope ? 
 
+variable scope batata hai kee kisi variable ko code 
+ke kis area(location) se access kiya jaa skta hai 
+
+in other words : scope ka matlb hai variable keee "boundry" ya limit
+
+simple words : ye variable kahan tak dikhai dega 
+aur kahan tak use ho skta hai 
+
+
 7. Difference between Global and Local Scope?
+
+
 
 8. Can we redeclare let , var , const ?
 
 9. Can we reassign let , var , const ?
 
 10. why we should avoid var ?
+
+kyuki : redeclaration and hoisting kee wajah se

@@ -1,0 +1,33 @@
+1. Types os operators in javascript
+       pending
+Bitwise
+Ternary
+
+2. Difference between == and === ?
+
+3. Difference between ++i and i++ ?
+
+
+4. Difference between && and || ?
+
+5. What is NOT(!) operator ?
+
+6. Explain operator precendence ?
+
+()
+Multiply/Divide
+Add/Sustract
+Comparison
+AND 
+OR 
+Assignment
+
+let ans = 5 + 3 * 2 > 10 && 20 / 2 == 10
+  5 + 6 > 10 && 10 == 10
+  11 > 10 && 10 == 10
+  true && true
+  true
+
+console.log(ans)
+
+
