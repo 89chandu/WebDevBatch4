@@ -72,3 +72,34 @@
 
 
 
+
+// for ...of loop
+
+// let fruits = ["Apple" , "Banana", "Mango"]
+
+// for (let fruit of fruits) {
+
+//     console.log(fruit)
+
+//     for (let fr of fruit) {
+//         console.log(fr)
+//     }
+  
+// }
+
+// let name = "Rahul"
+
+// for (let hc of name) {
+//     console.log(hc)
+// }
+
+let student = {
+    name:"Rahul",
+    age:20,
+    city:"Nagpur"
+}
+
+for (let key in student) {
+
+    console.log(key + ":" + student[key])
+}

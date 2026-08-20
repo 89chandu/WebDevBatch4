@@ -1,0 +1,49 @@
+1. what is a loop ?
+
+kisi bhi block of code ko bar bar execute
+ krne ke liye , loop ka use hota hai , 
+ jab tak condition false nhi ho jati
+
+ simple words :
+ loop ka use trab kiya jata hai ajb 
+ humko ek hee work bar bar krna hai 
+
+2. types of loop in javascript ?
+
+1. for loop
+2. while loop
+3. do while
+
+
+4. for ... of loop
+
+for....of loop kisi iterable(array, string,map,set) ,
+ki values ko ek - ek krke deta hai .
+
+simple words:
+Array ke andar jo values hai , unhe nikalne ke liye for...of, loop 
+use krte hai
+
+5. for ...in loop
+
+for ... in loop use kiya jata hai , object ke andar jitni 
+properties hoti hai unke names(keys) ek ek krke return krta hai
+
+
+
+6. forEach() method
+
+3. difference for and while ?
+
+4.difference between while and do..while ? 
+
+5. when we should use for loop and when while ?
+
+6. what is nested and infinite loop ?
+
+7. break vs continue  .
+
+8. can we use break , inside forEach ?
+
+forEach ke andar break ka use nhi kiya jaa skta hai 
+Syntax error aayega : Illegal break statment

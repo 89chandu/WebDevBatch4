@@ -1,0 +1,13 @@
+1. What is an array ?
+
+2. can array store different data types ?
+
+3. difference between slice() and splice()
+
+4. what is fill()
+
+5. difference between sort() and reverse()
+
+6. what is spread and rest ?
+
+7. what is shift and unshift()

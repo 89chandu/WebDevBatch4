@@ -1,0 +1,69 @@
+1. what is if ?
+
+if , ek conditional statement hai , jo kisi condition ko cgeck krta hai ,
+agar condition true hoti hai , 
+tab if ke andr ka code execute hota hai 
+
+if ka matalb "AGAR"
+
+Agar codition sahi hai - > code chalega
+Agar condition galat hai - > code nhi chalega
+
+2. Difference between if , else if and else ?
+
+if - > Pehli condition ko check krta hai 
+else if - > agar if false ho , to doosri condition check krta hai 
+else - > Agar koi bhi condition true na ho to , ye execute hota hai 
+
+
+if (condition) {
+    //code
+}
+
+
+if .... else 
+
+
+if (condition) {
+    //code
+} else {
+
+    //code
+}
+
+
+3. When we should use switch ?
+
+
+4. difference between switch and if else ?
+
+
+simple anser:
+
+if .... else - >conditios check krta hai
+switch -> Fixed values compare krta hai
+
+
+5. what is nested if ?
+
+if ke anadar ek aur if ya if..else statment ko nested if kahte hai 
+
+6. what is ternary operator ?
+Ternary Operator short form hai , if ... else ka.
+
+note :
+agar ek condition check krna hai to if ... else 
+ki jagah ternary operator use kr skte hai 
+
+code ke liye visit : ifvsswitch.js
+
+
+7. which is faster switch or if ? 
+
+
+
+
+
+
+
+
