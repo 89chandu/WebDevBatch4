@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <button id="btn">Click Me</button>
+
+    <script>
+        const btn = document.querySelector("#btn")
+
+        btn.addEventListener("click" , function(event) {
+            // console.log(event.currentTarget)
+            console.log(event.target)
+        })
+
+    </script> -->
+
+
+    <div id="target">
+        <button id="child">Click Me</button>
+    </div>
+    
+    <script>
+
+        const parent = document.querySelector("#target")
+        parent.addEventListener("click" , function(event) {
+            console.log("Target:",event.target)
+            console.log("Current Target :",event.currentTarget)
+        })
+
+    </script>
+
+    <!-- <input id="name" type="text">
+
+    <script>
+
+        const input = document.querySelector("#name")
+
+        input.addEventListener("keydown",function(event) {
+            console.log(event.key)
+        })
+
+    </script> -->
+
+</body>
+</html>

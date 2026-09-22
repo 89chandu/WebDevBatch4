@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+    // localStorage.setItem("name","Rahul")
+
+    // const name = localStorage.getItem("name")
+    // console.log(name)
+
+    // localStorage.removeItem("name")
+    // localStorage.clea()
+
+    // localStorage only Stores Strings ?
+
+
+    localStorage.setItem("age",25)
+
+    const age = localStorage.getItem("age")
+    console.log(age)
+    console.log(typeof(age))
+
+
+    const students = [
+        "Rahul",
+        "Aman",
+        "Prachi"
+    ]
+
+    localStorage.setItem("students",
+        JSON.stringify(students)
+    )
+
+    const data = localStorage.getItem("students")
+    
+    const student = JSON.parse(data)
+
+    console.log(student)
+
+
+    // object store
+
+        // const user = {
+
+        //     name: "Rahul",
+        //     age: 25
+        // }
+
+        // // localStorage.setItem("user",user) #save nhi hoga
+
+        // localStorage.setItem(
+        //     "user",
+        //     JSON.stringify(user)
+        // )
+
+        // const data = localStorage.getItem("user")
+        // const users = JSON.parse(data)
+        // console.log(users)
+
+
+        // session storage 
+
+        sessionStorage.setItem("name","Rahul")
+
+        sessionStorage.getItem("name")
+
+        // sessionStorage.removeItem("name")
+
+
+
+
+        localStorage.setItem()
+        localStorage.getItem()
+        localStorage.removeItem()
+        localStorage.clear
+
+        JSON.stringify()
+        JSON.parse()
+
+        sessionStorage.setItem()
+        sessionStorage.getItem()
+        sessionStorage.removeItem()
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+    </script>
+    
+</body>
+</html>

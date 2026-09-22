@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="users">
+        <li>
+            Rahul
+            <button>Delete</button>
+        </li>
+
+        <li>
+            Aman 
+            <button>Delete</button>
+        </li>
+
+        <li>
+            Rohit 
+            <button>Delete</button>
+        </li>
+        
+    </ul>
+
+    <script>
+
+        // const buttons = document.querySelectorAll("#users")
+
+        // buttons.forEach(function(button) {
+
+        //     button.addEventListener("click" , function() {
+        //         console.log("Delete")
+        //     })
+            
+        // })
+    
+    const users = document.querySelector("#users")
+    
+    users.addEventListener("click" , function(event) {
+        console.log(event.target)
+    })
+
+    
+
+
+
+    </script>
+    
+</body>
+</html>
